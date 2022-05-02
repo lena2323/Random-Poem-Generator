@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 100px;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(images/wallhaven-411827.jpg);
+}
+
+.poemContainer{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 20px;
+    padding: 30px;
+    border: solid 1px rgb(168, 174, 182);
+
+}
+
+button{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border: solid 1px rgb(168, 174, 182);
+}
+
+button:active{
+    background-color: rgba(255, 255, 255, 0.692);
+    border: solid 1px rgb(164, 165, 167);
+}
