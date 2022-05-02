@@ -33,3 +33,13 @@ button:active{
     background-color: rgba(255, 255, 255, 0.692);
     border: solid 1px rgb(164, 165, 167);
 }
+
+
+
+.textToShowSlashHide{
+    display: block;
+}
+
+.textToShowSlashHide.hide{
+    display: none;
+}

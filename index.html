@@ -10,15 +10,20 @@
 <body>
     
     <div id="Poem" class="poemContainer">
-        <div>
-            <h1 id="titleOfThePoem"> Random Poem Generator</h1>
-            <p id="actualPoem"> 
-                Click the button below to read one of my poems!
-            </p>
+        <div  id="actualPoem">
+            <div class="textToShowSlashHide" id="textToShowSlashHide">
+                <h1> Random Poem Generator</h1>
+                <p> 
+                    Click the button below to read one of my poems!
+                </p>
+            </div>
         </div>
     </div>
 
 
-    <button id="generateRandomPoem"> New poem!</button>
+    <button id="generateRandomPoem" onclick="newPoem()"> New poem!</button>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
