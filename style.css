@@ -16,7 +16,7 @@ body{
     border-radius: 20px;
     padding: 30px;
     border: solid 1px rgb(168, 174, 182);
-
+    max-width: 700px;
 }
 
 button{
