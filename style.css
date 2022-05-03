@@ -22,6 +22,7 @@ body{
     background-repeat: no-repeat; 
     background-size:100% 100%;
     background-position: center;
+
 }
 
 
@@ -34,6 +35,8 @@ button{
     background-color: rgba(210, 235, 252, 0.555);
     border: solid 1px rgb(92, 133, 187);
     font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 1px 10px rgb(0, 143, 187);  
+
 }
 
 button:active{
@@ -63,3 +66,63 @@ pre{
 pre .pThatHides{
 text-align: center;
 }
+
+
+
+/*******************************************/
+
+.navbar{
+    padding-left: 10px;
+    margin:0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #7daac4b9;
+    margin-top: 0%;
+    background-size: cover;
+    font-size:medium;
+    padding-right: 20px;
+    box-shadow: 0px 2px 20px rgb(0, 143, 187);  
+    }
+    
+    .navbar img{
+        max-width: 100px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: end;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-left: 10px;
+        margin:0px;
+        
+    }
+    
+    li{
+    list-style: none;
+    padding: 1em;
+    text-decoration: none;
+
+    }
+    
+    .navItems a{
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .navItems:hover{
+        text-shadow: 5px 2px 3px rgb(0, 143, 187);  
+    }
+    
+    .logo:hover {
+        -webkit-filter: drop-shadow(1px 2px 1px rgb(0, 143, 187));
+        filter: drop-shadow(1px 2px 1px rgb(0, 143, 187)); 
+    }
