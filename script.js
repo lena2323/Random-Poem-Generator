@@ -3,15 +3,29 @@ const generateRandomPoem = document.getElementById('generateRandomPoem');
 
 const textToShowSlashHide = document.getElementById('textToShowSlashHide');
 
+const aboutMeDiv = document.getElementById('aboutMeDiv');
+
+const aboutThePoet =  document.getElementById('aboutThePoet');
+
+const preActualPoem = document.getElementById('preActualPoem');
+
+const poemContainer = document.getElementById('poem');
+
+
+aboutThePoet.addEventListener('click',() =>{
+    aboutMeDiv.classList.toggle('show');
+    textToShowSlashHide.classList.toggle('hide');
+    preActualPoem.classList.toggle('hide');
+    poemContainer.classList.toggle('hide');
+});
 
 generateRandomPoem.addEventListener('click',() =>{
     textToShowSlashHide.classList.toggle('hide');
+    aboutMeDiv.classList.toggle('hide');
 });
 
 
-
-
-const poems = [
+var poems = [
     "For a change, \n \n I find myself in a character that took his own life; \n The last words he ever spoke \n Mirror the thoughts of my own \n And a friend told me once \n That I scare him when I talk at night \n About my what ifs \n About my fight to survive this pathetic form of life \n Sometimes I scare myself too \n But those feelings now \n Just come naturally"
 
     ,
@@ -24,11 +38,12 @@ const poems = [
 ]
 
 
-function newPoem() {
+    function newPoem() {
     var randomNumber = Math.floor(Math.random() * (poems.length));
     document.getElementById('actualPoem').innerHTML =
     poems[randomNumber];
 }
+
 
 
 
