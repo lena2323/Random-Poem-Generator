@@ -3,35 +3,42 @@ body{
     text-align: center;
     margin: auto;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
     font-family:'Times New Roman', Times, serif;
-    background-image: url(images/wallhaven-411827.jpg);
+    background-image: url(images/18.jpg);
+    margin-bottom: 30px;
 }
 
 .poemContainer{
     display: flex;
     text-align: justify;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.555);
     border-radius: 20px;
     padding: 30px;
-    border: solid 1px rgb(168, 174, 182);
     max-width: 700px;
+    margin-top: 10px;
+    background-image: url(images/kisspng-parchment-information-paper-document-pergamen-5b22e7f095f5a3.8831698115290142566142.png);
+    background-repeat: no-repeat; 
+    background-size:100% 100%;
+    background-position: center;
 }
+
 
 button{
     display: flex;
     text-align: center;
     margin: auto;
     padding: 10px;
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.555);
-    border: solid 1px rgb(168, 174, 182);
+    margin-top: 0px;
+    background-color: rgba(210, 235, 252, 0.555);
+    border: solid 1px rgb(92, 133, 187);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 button:active{
-    background-color: rgba(255, 255, 255, 0.692);
-    border: solid 1px rgb(164, 165, 167);
+    background-color: rgba(140, 207, 252, 0.521);
+    border: solid 1px rgb(98, 143, 235);
 }
 
 
@@ -46,6 +53,11 @@ button:active{
 
 pre{
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: larger;
 }
 
 pre .pThatHides{
