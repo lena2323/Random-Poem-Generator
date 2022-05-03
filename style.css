@@ -10,7 +10,7 @@ body{
 
 .poemContainer{
     display: flex;
-    text-align: center;
+    text-align: justify;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.555);
     border-radius: 20px;
@@ -42,4 +42,12 @@ button:active{
 
 .textToShowSlashHide.hide{
     display: none;
+}
+
+pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+pre .pThatHides{
+text-align: center;
 }
