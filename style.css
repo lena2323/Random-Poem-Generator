@@ -25,6 +25,27 @@ body{
 
 }
 
+.poemContainerAboutMe.hide{
+    display: none;
+}
+
+.poemContainerAboutMe.show{
+    display: flex;
+    text-align: justify;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 700px;
+    margin-top: 10px;
+    background-image: url(images/kisspng-parchment-information-paper-document-pergamen-5b22e7f095f5a3.8831698115290142566142.png);
+    background-repeat: no-repeat; 
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+
+
 .poemContainer.hide{
     display: none;
 }
@@ -74,7 +95,6 @@ button:active{
     padding: 30px;
     
 }
-
 .aboutMeDiv.show{
     display: block;
     font-family: 'Times New Roman', Times, serif;
@@ -82,7 +102,7 @@ button:active{
 }
 
 .aboutMeDiv.hide{
-    display: none;
+    display: none !important;
 }
 
 
