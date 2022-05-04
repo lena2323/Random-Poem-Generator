@@ -13,15 +13,34 @@ const poemContainer = document.getElementById('poem');
 
 
 aboutThePoet.addEventListener('click',() =>{
-    aboutMeDiv.classList.toggle('show');
-    textToShowSlashHide.classList.toggle('hide');
-    preActualPoem.classList.toggle('hide');
-    poemContainer.classList.toggle('hide');
+   // aboutMeDiv.classList.toggle('show');
+   // textToShowSlashHide.classList.toggle('hide');
+   // preActualPoem.classList.toggle('hide');
+   // poemContainer.classList.toggle('hide');
+   document.getElementById('aboutMeDiv').style.display = 'block'
+    document.getElementById('textToShowSlashHide').style.display = 'none';
+    document.getElementById('preActualPoem').style.display = 'none';
+    poemContainer.classList.toggle('show');
+    return;
 });
 
 generateRandomPoem.addEventListener('click',() =>{
-    textToShowSlashHide.classList.toggle('hide');
-    aboutMeDiv.classList.toggle('hide');
+  //  textToShowSlashHide.classList.toggle('hide');
+  //  aboutMeDiv.classList.toggle('hide');
+  //  preActualPoem.classList.toggle('show');
+  //  poemContainer.classList.toggle('show');
+  
+ // document.getElementById('textToShowSlashHide').style.display = 'none';
+ // document.getElementById('preActualPoem').style.visibility= 'visible';
+  // document.getElementById('poemContainer').style.visibility = 'visible';
+  // document.getElementById('actualPoem').style.display = 'block';
+  textToShowSlashHide.classList.toggle('hide');
+  preActualPoem.classList.toggle('show');
+  poemContainer.classList.toggle('show');
+  aboutMeDiv.classList.toggle('hide');
+ return;  
+
+
 });
 
 
