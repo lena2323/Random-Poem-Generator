@@ -31,7 +31,7 @@ var poems = [
 ]
 
 function newPoem() {
-  var randomNumber = Math.floor(Math.random() * (3));
+  var randomNumber = Math.floor(Math.random() * (poems.length));
   document.getElementById('actualPoem').innerHTML =
   poems[randomNumber];
 
