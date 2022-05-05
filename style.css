@@ -29,7 +29,7 @@ body{
     display: none;
 }
 
-.poemContainerAboutMe.show{
+.aboutMeDiv{
     display: flex;
     text-align: justify;
     margin: auto;
@@ -86,19 +86,18 @@ button:active{
 
 .aboutMeDiv{
     display: none;
+    flex-direction: column;
+    background-image: url(images/kisspng-parchment-information-paper-document-pergamen-5b22e7f095f5a3.8831698115290142566142.png);
     background-position: center;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 100px;
     margin-bottom: 70px;
     margin: auto;
     font-size: larger;
-    padding: 30px;
-    
-}
-.aboutMeDiv.show{
-    display: block;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 100px;
     text-align: center;
+    background-size: 100% 100%;
+
 }
 
 .aboutMeDiv.hide{
@@ -126,6 +125,10 @@ text-align: center;
 
 .preActualPoem.show{
     display: block;
+}
+
+.generateRandomPoem.hide{
+    display: none;
 }
 
 /*******************************************/

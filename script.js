@@ -9,7 +9,7 @@ const poemContainer = document.getElementById('poem');
 
 
 
-generateRandomPoem.addEventListener('click',newPoem =>{
+generateRandomPoem.addEventListener('click', () =>{
   textToShowSlashHide.classList.toggle('hide');
   preActualPoem.classList.toggle('show');
   aboutMeDiv.classList.toggle('hide');
@@ -44,12 +44,10 @@ const aboutThePoet = document.getElementById('aboutThePoet');
 const aboutMeDiv = document.getElementById('aboutMeDiv');
 
 aboutThePoet.addEventListener('click',() =>{
-  aboutMeDiv.classList.toggle('show');
-  textToShowSlashHide.classList.toggle('hide');
-  preActualPoem.classList.toggle('hide');
+  aboutMeDiv.style.display="block";
+  generateRandomPoem.style.display="block"
+  preActualPoem.style.display="none";
+  poemContainer.style.display="none";
 });
-
-
-
 
 
