@@ -17,6 +17,7 @@ body{
     border-radius: 20px;
     padding: 30px;
     max-width: 700px;
+    max-height: auto;
     margin-top: 10px;
     background-image: url(images/kisspng-parchment-information-paper-document-pergamen-5b22e7f095f5a3.8831698115290142566142.png);
     background-repeat: no-repeat; 
@@ -25,28 +26,24 @@ body{
 
 }
 
-.poemContainerAboutMe.hide{
-    display: none;
-}
 
-.aboutMeDiv{
+.aboutMeDiv {
     display: flex;
-    text-align: justify;
-    margin: auto;
-    border-radius: 20px;
-    padding: 30px;
-    max-width: 700px;
-    margin-top: 10px;
+    flex-direction: column;
     background-image: url(images/kisspng-parchment-information-paper-document-pergamen-5b22e7f095f5a3.8831698115290142566142.png);
-    background-repeat: no-repeat; 
-    background-size:100% 100%;
     background-position: center;
-
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin: auto;
+    font-size: larger;
+    padding: 100px;
+    text-align: center;
+    background-size: 100% 100%;
+    max-width: 700px;
 }
 
-
-
-.poemContainer.hide{
+.hide {
     display: none;
 }
 
@@ -76,34 +73,6 @@ button:active{
 }
 
 
-.textToShowSlashHide{
-    display: block;
-}
-
-.textToShowSlashHide.hide{
-    display: none;
-}
-
-.aboutMeDiv{
-    display: none;
-    flex-direction: column;
-    background-image: url(images/kisspng-parchment-information-paper-document-pergamen-5b22e7f095f5a3.8831698115290142566142.png);
-    background-position: center;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 100px;
-    margin-bottom: 70px;
-    margin: auto;
-    font-size: larger;
-    padding: 100px;
-    text-align: center;
-    background-size: 100% 100%;
-
-}
-
-.aboutMeDiv.hide{
-    display: none !important;
-}
-
 
 
 pre{
@@ -117,18 +86,6 @@ pre{
 
 pre .pThatHides{
 text-align: center;
-}
-
-.preActualPoem.hide{
-    display: none;
-}
-
-.preActualPoem.show{
-    display: block;
-}
-
-.generateRandomPoem.hide{
-    display: none;
 }
 
 /*******************************************/

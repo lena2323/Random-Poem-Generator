@@ -5,18 +5,11 @@ const textToShowSlashHide = document.getElementById('textToShowSlashHide');
 
 const preActualPoem = document.getElementById('preActualPoem');
 
-const poemContainer = document.getElementById('poem');
+const poemContainer = document.getElementById('poemContainer');
 
+const aboutThePoet = document.getElementById('aboutThePoet');
 
-
-generateRandomPoem.addEventListener('click', () =>{
-  textToShowSlashHide.classList.toggle('hide');
-  preActualPoem.classList.toggle('show');
-  aboutMeDiv.classList.toggle('hide');
-
-});
-
-
+const aboutMeDiv = document.getElementById('aboutMeDiv');
 
 var poems = [
     "For a change, \n \n I find myself in a character that took his own life; \n The last words he ever spoke \n Mirror the thoughts of my own \n And a friend told me once \n That I scare him when I talk at night \n About my what ifs \n About my fight to survive this pathetic form of life \n Sometimes I scare myself too \n But those feelings now \n Just come naturally"
@@ -35,19 +28,15 @@ function newPoem() {
   document.getElementById('actualPoem').innerHTML =
   poems[randomNumber];
 
+  textToShowSlashHide.classList.add('hide');
+  poemContainer.classList.remove('hide');
+  aboutMeDiv.classList.add('hide');
 }
 
-
-
-const aboutThePoet = document.getElementById('aboutThePoet');
-
-const aboutMeDiv = document.getElementById('aboutMeDiv');
-
 aboutThePoet.addEventListener('click',() =>{
-  aboutMeDiv.style.display="block";
-  generateRandomPoem.style.display="block"
-  preActualPoem.style.display="none";
-  poemContainer.style.display="none";
+  textToShowSlashHide.classList.add('hide');
+  aboutMeDiv.classList.remove('hide');
+  poemContainer.classList.add('hide');
 });
 
 
