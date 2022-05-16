@@ -1,17 +1,12 @@
 body{
-    display: flex;
-    text-align: center;
-    margin: auto;
-    flex-direction: column;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin: 0px;
     font-family:'Times New Roman', Times, serif;
-    background-image: url(images/18.jpg);
-    margin-bottom: 30px;
+    background-color: rgb(207, 197, 151);
 }
 
 .poemContainer{
     display: flex;
+    flex-direction: column;
     text-align: justify;
     margin: auto;
     border-radius: 20px;
@@ -23,7 +18,26 @@ body{
     background-repeat: no-repeat; 
     background-size:100% 100%;
     background-position: center;
+    justify-content: center;
 
+}
+
+.preActualPoem{
+    margin: auto;
+    justify-content: center;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: larger;
+}
+
+
+
+pre .pThatHides{
+text-align: center;
 }
 
 
@@ -52,12 +66,12 @@ button{
     text-align: center;
     margin: auto;
     padding: 10px;
-    margin-top: 0px;
+    margin-top: 50px;
     background-color: rgba(223, 237, 247, 0.74);
     border: solid 1px rgb(92, 133, 187);
     font-family: 'Times New Roman', Times, serif;
     box-shadow: 0px 1px 10px rgb(0, 143, 187);  
-
+    margin-bottom: 30px;
 }
 
 button:hover{
@@ -75,19 +89,6 @@ button:active{
 
 
 
-pre{
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 100px;
-    margin-bottom: 70px;
-    padding-left: 30px;
-    padding-right: 50px;
-    font-size: larger;
-}
-
-pre .pThatHides{
-text-align: center;
-}
-
 /*******************************************/
 
 .navbar{
@@ -98,7 +99,7 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
-    background-color: #7daac400;
+    background-color: #464745d3;
     margin-top: 0%;
     background-size: cover;
     font-size:medium;
@@ -111,6 +112,8 @@ text-align: center;
         padding-top: 10px;
     }
 
+
+    
     ul{
         display:flex;
         flex-direction: row;
@@ -127,19 +130,19 @@ text-align: center;
     padding: 0px;
     text-decoration: none;
     padding-right: 1em;
-    text-shadow: 1px 1px 15px  white;
+    text-shadow: 1px 1px 10px  white;
     }
     
     .navItems a{
         position: relative;
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: rgb(180, 219, 219);
         font-family: 'Times New Roman', Times, serif;
         
     }
     
     .navItems:hover{
-        text-shadow: 1px 1px 30px rgb(34, 177, 221);  
+        text-shadow: 1px 1px 10px rgb(34, 177, 221);  
     }
     
 
@@ -147,9 +150,54 @@ text-align: center;
     .logo{
         -webkit-filter: drop-shadow(1px 2px 1px rgb(255, 255, 255));
         filter: drop-shadow(1px 2px 1px rgb(255, 255, 255)); 
+        max-width: 150px;
+        padding-left: 20px;
+        padding-top: 10px;
     }
 
     .logo:hover {
         -webkit-filter: drop-shadow(1px 2px 1px rgb(0, 143, 187));
         filter: drop-shadow(1px 2px 1px rgb(0, 143, 187)); 
     }
+
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background-color: #464745d3 ;
+        margin: auto;
+        justify-content: center;      
+        margin-top: 120px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+
+    .leftColumnWithLinks{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .rightColumnWithLinks{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .rightColumnWithLinks a{
+        padding: 2px;  
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+    }
+
+    .leftColumnWithLinks a{
+        padding: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+
+    }
+
+
