@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family:'Times New Roman', Times, serif;
-    background-color: rgb(207, 197, 151);
+    background-color: RGB(249, 250, 251);
 }
 
 .poemContainer{
@@ -70,14 +70,12 @@ button{
     background-color: rgba(223, 237, 247, 0.74);
     border: solid 1px rgb(92, 133, 187);
     font-family: 'Times New Roman', Times, serif;
-    box-shadow: 0px 1px 10px rgb(0, 143, 187);  
     margin-bottom: 30px;
 }
 
 button:hover{
     background-color: rgba(210, 235, 252, 0.582);
     border: solid 1px rgb(98, 165, 253);
-    box-shadow: 0px 1px 10px rgb(3, 83, 107);  
 
 }
 
@@ -99,7 +97,7 @@ button:active{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
-    background-color: #464745d3;
+    background-color: RGB(21, 94, 117);
     margin-top: 0%;
     background-size: cover;
     font-size:medium;
@@ -131,27 +129,26 @@ button:active{
     padding: 0px;
     text-decoration: none;
     padding-right: 1em;
-    text-shadow: 1px 1px 10px  white;
-    /*border-right: rgb(46, 40, 40) solid 1px;
-    border-left: rgb(46, 40, 40) solid 1px;
-
-    padding-left: 10px;
-    padding-right: 10px;*/
     }
     
     .navItems a{
         position: relative;
         text-decoration: none;
-        color: rgb(180, 219, 219);
+        color: RGB(234, 179, 8);
         font-family: 'Times New Roman', Times, serif;
         padding: 10px;
         
     }
     
     .navItems:hover{
-        text-shadow: 1px 1px 10px rgb(34, 177, 221);  
+
+        text-shadow: 2px 2px 1px rgb(80, 60, 1);  
     }
     
+    .navItems a:hover{
+        color: rgb(226, 170, 1);
+
+    }
 
 
     .logo{
@@ -163,15 +160,15 @@ button:active{
     }
 
     .logo:hover {
-        -webkit-filter: drop-shadow(1px 2px 1px rgb(0, 143, 187));
-        filter: drop-shadow(1px 2px 1px rgb(0, 143, 187)); 
+        -webkit-filter: drop-shadow(1px 2px 1px rgb(187, 152, 39));
+        filter: drop-shadow(1px 2px 1px rgb(187, 152, 39)); 
     }
 
 
     .footer{
         display: flex;
         flex-direction: row;
-        background-color: #464745d3 ;
+        background-color: RGB(21, 94, 117) ;
         margin: auto;
         justify-content: center;      
         margin-top: 120px;
